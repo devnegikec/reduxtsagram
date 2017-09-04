@@ -1,0 +1,51 @@
+.chat-container {
+    right: 5px;
+    font-size: .76em;
+    position:absolute;
+    top:0;
+}
+.chat-dialog-box {
+    max-width: 450px;
+    margin: 15px auto;
+}
+.modal-header {
+    padding: 5px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.modal-header .close {
+    margin-top: -2px;
+}
+.chat-close-button {
+    font-size: 30px;
+}
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+.close {
+    font-size: 50px !important;
+    font-weight: 700 !important;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+.comment-list{
+    height: 220px;
+    overflow-y:scroll;
+    background: rgba(242,242,242,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 0%, rgba(232,232,232,1) 47%, rgba(224,224,224,1) 93%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(242,242,242,1)), color-stop(0%, rgba(242,242,242,1)), color-stop(47%, rgba(232,232,232,1)), color-stop(93%, rgba(224,224,224,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 0%, rgba(232,232,232,1) 47%, rgba(224,224,224,1) 93%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 0%, rgba(232,232,232,1) 47%, rgba(224,224,224,1) 93%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 0%, rgba(232,232,232,1) 47%, rgba(224,224,224,1) 93%);
+    background: radial-gradient(ellipse at center, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 0%, rgba(232,232,232,1) 47%, rgba(224,224,224,1) 93%);
+  }
