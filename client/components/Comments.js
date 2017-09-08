@@ -25,10 +25,10 @@ const Comments = React.createClass({
 	render() {
 		// test
 		console.log('comment render:-', this.props);
-		const { isShowing, showCommentBox } = this.props;
+		const { showCommentBox, modalBox } = this.props;
 		return (
 			<div className="comments">
-				<CommentBox isShowing={isShowing} />
+				<CommentBox  modalBox={modalBox}/>
 				{this.props.postComments.map(this.renderComment)}
 				<form ref="commentForm" className="comment-form" onSubmit={
 					this.handleSubmit}>

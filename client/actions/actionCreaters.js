@@ -41,3 +41,11 @@ export function hideCommentBox(isHidden){
 		isHidden
 	}
 }
+
+export function changeSelection(sel){
+	console.log(sel);
+	return {
+		type: 'CHANGE_SELECTION',
+		sel
+	}
+}
